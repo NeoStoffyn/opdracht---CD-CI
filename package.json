@@ -1,0 +1,12 @@
+{
+  "name": "cicd-demo-app",
+  "version": "1.0.0",
+  "description": "Eenvoudige demo app voor CI/CD opdracht (Docker + GitHub Actions)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
