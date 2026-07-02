@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send(`
     <h1>CI/CD Demo App</h1>
     <p>Deze app draait in een Docker container.</p>
-    <p>Versie: 1.0.0</p>
+    <p>Versie: 1.0.1</p>
     <p>Tijdstip server start: ${new Date().toISOString()}</p>
   `);
 });
